@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Raw and processed datasets
+dataset_aanwezigheden.csv
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained model artifacts
+*.pkl
+*.joblib
+models/*
+!models/README.md
+!models/.gitkeep
+
+# Generated outputs
+outputs/figures/*
+outputs/results/*
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
+
+# Logs / temporary files
+*.log
+*.tmp
